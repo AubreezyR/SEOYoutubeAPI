@@ -39,6 +39,3 @@ response = request.execute()
 create_info_table(response)
 
 
-
-
-
