@@ -16,6 +16,7 @@
   * Follow requested imput from program
 
 **How code works**
+
   My program gathers information from google's Youtube
   API by sending a GET request with the users API key and requested channel name
   It then takes the information and creates a table for the user to see
