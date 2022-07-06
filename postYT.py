@@ -6,7 +6,8 @@ from googleapiclient.discovery import build
 
 
 def get_channel():
-    idOrName = input("type 'id' to search via id or type 'name' to search via channel name: ")
+    idOrName = input("type 'id' to search via id or type "
+                     "'name' to search via channel name: ")
     idOrName.lower()
     if idOrName == 'id':
         channel_id = input("please give a channel id: ")
@@ -15,7 +16,8 @@ def get_channel():
         channel_id = input("please give a channel name: ")
         return channel_id
     else:
-        print("Error incorrect input: Please try again and either input 'id' or 'name'")
+        print("Error incorrect input: Please try again and"
+              "either input 'id' or 'name'")
         channel_id = get_channel()
         return channel_id
 
